@@ -5,7 +5,7 @@
 using namespace std;
 int main () {
     ifstream archivoEntrada("input/archivoEntrada");
-    ofstream archivoSalida("output/archivoSalida")
+    ofstream archivoSalida("output/archivoSalida");
 
     if (archivoEntrada.is_open()) {
         cout<<"Archivo abierto"<<endl;
